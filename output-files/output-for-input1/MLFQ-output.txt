@@ -1,0 +1,16 @@
+Sheduling Policy:
+MLFQ
+Output parameters for all processes:
+P1 0 3 1 4 4 9.8 0 1 1 5.8
+P2 2 6 1 17 15 9.8 0 9 9 5.8
+P3 4 4 1 18 14 9.8 0 10 10 5.8
+P4 6 5 1 20 14 9.8 1 8 9 5.8
+P5 8 2 1 10 2 9.8 0 0 0 5.8
+Order of sheduling processes:
+P1 P1 P2 P1 P3 P3 P4 P5 P5 P4 P2 P2 P3 P4 
+Number of times each process has been scheduled:
+P1 3
+P2 3
+P3 3
+P4 3
+P5 2
